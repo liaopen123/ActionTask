@@ -17,4 +17,4 @@ request.post({
     if (!error && response.statusCode == 200) {
         console.log(body);// 请求成功的处理逻辑
     }
-}).set('Cookie', 'UM_distinctid=175bb9b178e929-0cf52312fb0ef5-326e7207-60e640-175bb9b178f757');
+});
