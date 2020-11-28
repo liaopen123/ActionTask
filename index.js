@@ -3,7 +3,7 @@ var request = require('request');
 const url = 'http://custom.luyuan.cn/custom/signin/add';
 
 const userCode = process.env.USERCODE
-console.log("得到的userCode:" + userCode)
+console.log("得到的userCode:${userCode}" + userCode)
 // request.post({
 //     url: url,
 //     form: {
