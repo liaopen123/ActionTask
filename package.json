@@ -1,0 +1,23 @@
+{
+  "name": "ActionsTask",
+  "version": "1.0.0",
+  "description": "1. 积分到了一定量就可以领取实物奖励",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liaopen123/ActionTask.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liaopen123/ActionTask/issues"
+  },
+  "homepage": "https://github.com/liaopen123/ActionTask#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
