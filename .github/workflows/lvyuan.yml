@@ -1,12 +1,15 @@
-name: LvYuan Sign Everyday
+name: LvYuan SignIn Everyday
 
-on:
+
+on: 
   push:
-  schedule:
-    - cron:'0 21 * * *'
+  gollum: 
+  schedule: 
+      - cron: '0 11,21 * * *'
 
 jobs:
   one:
+
     runs-on: ubuntu-latest
     
     steps:
@@ -22,5 +25,4 @@ jobs:
         USERCODE: ${{ secrets.USERCODE }}
       run: |
         npm install
-        npm install --save request
         node index.js
