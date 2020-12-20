@@ -43,7 +43,7 @@ request.post({
     }
 }, function (error, response, body) {
     if (!error && response.statusCode == 200) {
-        console.log(body);// 请求成功的处理逻辑
+        console.log("发帖结果1:"+body);// 请求成功的处理逻辑
     }
 });
 
@@ -65,7 +65,7 @@ setTimeout(function () {
         }
     }, function (error, response, body) {
         if (!error && response.statusCode == 200) {
-            console.log(body);// 请求成功的处理逻辑
+  console.log("发帖结果2:"+body);// 请求成功的处理逻辑
         }
     });
 
